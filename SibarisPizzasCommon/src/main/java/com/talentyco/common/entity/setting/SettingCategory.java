@@ -8,7 +8,12 @@ package com.talentyco.common.entity.setting;
  * @see <a href = "" />  </a>
  */
 
-public class SettingCategory {
+public enum SettingCategory {
 
+    GENERAL,
+    MAIL_SERVER,
+    MAIL_TEMPLATES,
+    CURRENCY,
+    PAYMENT
 
 }
