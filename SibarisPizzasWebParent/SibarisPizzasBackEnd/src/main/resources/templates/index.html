@@ -1,18 +1,74 @@
 <!DOCTYPE html>
-<html>
+<html  xmlns:th="http://www.thymeleaf.org">
 <head>
-<meta charset="UTF-8">
-<title>SibarisPizzasBackEnd</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0">
+	<title>SibarisPizzas BackEnd  -  Home</title>
+
+	<link rel="stylesheet" type="text/css" th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" />
+<!--	<link rel="stylesheet" type="text/css" th:href="@{/fontawesome/all.css}" />-->
+	<link rel="stylesheet" type="text/css" th:href="@{/css/style.css}" />
+	<script type="text/javascript" th:src="@{/webjars/jquery/jquery.min.js}" ></script>
+	<script type="text/javascript" th:src="@{/webjars/bootstrap/js/bootstrap.min.js}" ></script>
+<!--	<script type="text/javascript" th:src="@{/js/common.js}" ></script>-->
 </head>
-<style>
-* {
-	background: green;
-	text-align: center;
-	color: red;
-}
-</style>
+
 <body>
 
-	<h1>SibarisPizzasFrontEnd</h1>
+<div class="container-fluid">
+	<div>
+		<nav class="navbar navbar-expand bg-dark navbar-dark">
+			<a class="navbar-brand" th:href="@{/}">
+				<img th:src="@{/images/}" />
+			</a>
+			<div class="collapse navbar-collapse">
+				<ul class="navbar-nav">
+					<li class="nav-item">
+						<a class="nav-link" th:href="@{/users}">Users</a>
+					</li>
+
+
+				</ul>
+
+
+
+			</div>
+
+
+
+
+
+
+		</nav>
+	</div>
+
+
+
+
+
+	<div>
+		<h1>Panel Home BackEnd Sibaris Pizzas.</h1>
+	</div>
+	<div>
+		<span>Panel Home BackEnd Sibaris Pizzas.</span>
+	</div>
+</div>
+
+
 </body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
